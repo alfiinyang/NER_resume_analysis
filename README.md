@@ -1,4 +1,4 @@
-# NER_resume_analysis_
+# NER_resume_analysis
 
 This project was completed with the guide provided by Abid Ali Awan's DataCamp article on Named Entity Recognition (NER).
 
