@@ -1,8 +1,6 @@
-!pip install pyLDAvis
 !pip install PyPDF2
 
 import spacy
-import pyLDAvis
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
