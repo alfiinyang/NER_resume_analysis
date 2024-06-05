@@ -1,13 +1,8 @@
 !pip install PyPDF2
 
 import spacy
-import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-
-# Download NLTK resources
-nltk.download('stopwords')
-nltk.download('wordnet')
 
 # Load spaCy model
 nlp = spacy.load('en_core_web_sm')
