@@ -3,13 +3,6 @@
 import spacy
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-
-# Load spaCy model
-nlp = spacy.load('en_core_web_sm')
-
-# Initialize WordNet Lemmatizer
-lemmatizer = WordNetLemmatizer()
-
 import PyPDF2
 import pandas as pd
 
@@ -52,13 +45,8 @@ patterns = [
 # Add patterns to entity ruler
 ruler.add_patterns(patterns)
 
-import nltk
-nltk.download('punkt')  # Download the 'punkt' tokenizer resource
-
 import re
 from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
 
 # Initialize WordNet Lemmatizer
 lemmatizer = WordNetLemmatizer()
