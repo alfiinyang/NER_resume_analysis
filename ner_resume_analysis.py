@@ -84,7 +84,7 @@ from spacy import displacy
 options = {'ents': ['PERSON', 'GPE', 'SKILL'], 'colors': {'PERSON': 'orange', 'GPE': 'lightgreen', 'SKILL': 'lightblue'}}
 
 # Visualize named entities in each resume
-for resume_text in data['resume_text']:
+for resume_text in data['cleaned_resume']:
     doc = nlp(resume_text)
     displacy.render(doc, style="ent", jupyter=True, options=options)
 
