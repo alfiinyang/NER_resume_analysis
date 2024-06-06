@@ -34,6 +34,9 @@ nlp = spacy.load('en_core_web_sm')
 
 from spacy.pipeline import EntityRuler
 
+# Add entity ruler pipeline to spaCy model
+ruler = nlp.add_pipe("entity_ruler", before="ner")
+
 # Define patterns as dictionaries
 patterns = [
     {"label": "SKILL", "pattern": [{"LOWER": "skill_1"}]},
