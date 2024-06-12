@@ -48,6 +48,13 @@ patterns = [
 # Add patterns to entity ruler
 ruler.add_patterns(patterns)
 
+import nltk
+
+# Download NLTK resources
+nltk.download('punkt')  # Download the 'punkt' tokenizer resource
+nltk.download('stopwords')
+nltk.download('wordnet')
+
 import re
 from nltk.tokenize import word_tokenize
 
