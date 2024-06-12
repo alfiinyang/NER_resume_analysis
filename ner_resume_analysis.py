@@ -42,7 +42,8 @@ patterns = [
     {"label": "SKILL", "pattern": [{"LOWER": "skill_1"}]},
     {"label": "SKILL", "pattern": [{"LOWER": "skill_2"}]},
     {"label": "SKILL", "pattern": [{"LOWER": "skill_3"}]},
-    {"label": "SKILL", "pattern": [{"LOWER": "skill_4"}]}
+    {"label": "SKILL", "pattern": [{"LOWER": "skill_4"}]},
+    {"label": "PERSON", "pattern": [{"LOWER": "name"}]}
 ]
 
 # Add patterns to entity ruler
