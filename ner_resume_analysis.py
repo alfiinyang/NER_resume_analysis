@@ -145,6 +145,6 @@ def calculate_similarity(resume_text, required_skills):
 for text in data[['cleaned_resume']].itertuples(index = False):
   resume_text = str(text[0])
   print(resume_text)
-  required_skills = ["matplotlib", "numpy", "pandas", "data visiualization", "seaborn"]
+  required_skills = ["skill_1", "skill_2", "skill_3", "skill_4", "skill_5"]
   similarity_score = calculate_similarity(resume_text, required_skills)
   print("Similarity Score:", similarity_score)
