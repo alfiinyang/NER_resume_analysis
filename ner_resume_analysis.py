@@ -104,12 +104,11 @@ company_requirements = "Company Requirement"
 
 # Combine the company requirements with stopwords removed
 cleaned_company_requirements = clean_text(company_requirements)
-cleaned_company_requirements_str = ' '.join(cleaned_company_requirements)
 
 # Calculate TF-IDF vectors for the company requirements and resume texts
 tfidf_vectorizer = TfidfVectorizer()
 tfidf_matrix = tfidf_vectorizer.fit_transform(data['resume_text'])
-company_tfidf = tfidf_vectorizer.transform([cleaned_company_requirements_str])
+company_tfidf = tfidf_vectorizer.transform([cleaned_company_requirements])
 
 # Calculate cosine similarity between the company requirements and each resume
 similarity_scores = cosine_similarity(company_tfidf, tfidf_matrix).flatten()
