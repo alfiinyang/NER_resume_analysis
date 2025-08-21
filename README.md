@@ -36,16 +36,7 @@ The pipeline—based on the process outlined in [the Medium article](https://med
 ## 🛠️ Installation
 
 ```bash
-git clone <your-repo-url>
-cd <repo-directory>
-
-# (Optional) Create virtual environment
-python -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\Scripts\activate     # Windows
-
 # Install dependencies
-pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ````
 
@@ -155,6 +146,3 @@ Additionally, resume-to-job matching scores are generated using cosine similarit
 ## 📜 License
 
 MIT License. Feel free to use, modify, and extend—especially for applications in recruiting, NLP, and resume analytics.
-
-```
-```
