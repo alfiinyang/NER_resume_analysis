@@ -2,4 +2,4 @@
 
 This project was completed with the guide provided by Abid Ali Awan's DataCamp article on Named Entity Recognition (NER).
 
-Here is the link to the article: https://www.datacamp.com/blog/what-is-named-entity-recognition-ner
+Click here to read my article on [**Performing Resumé Analysis using NER with Cosine Similarity**](https://medium.com/pythons-gurus/performing-resum%C3%A9-analysis-using-ner-with-cosine-similarity-8eb99879cda4)
